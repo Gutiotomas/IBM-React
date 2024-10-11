@@ -70,7 +70,7 @@ const ShoppingCart = () => {
         </button>
       </div>
       <div>
-        {totalAmount ? <div>'The total amount is {totalAmount}</div> : ""}
+        {totalAmount ? <div>&apos;The total amount is {totalAmount}</div> : ""}
       </div>
     </>
   );
