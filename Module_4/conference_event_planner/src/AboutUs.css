@@ -1,0 +1,26 @@
+.aboutus_container {
+    width: 90%; /* Use percentage to ensure the container adapts to screen size */
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.6;
+    overflow-wrap: break-word; /* Ensures long words wrap properly */
+  }
+  
+  @media (max-width: 768px) {
+    .aboutus_container {
+      width: 95%; /* Adjust width for smaller screens */
+      padding: 15px;
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutus_container {
+      width: 100%; /* Ensure full width for mobile */
+      padding: 10px;
+      font-size: 15px;
+    }
+  }
+  
